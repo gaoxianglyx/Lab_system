@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/* header start */
+.header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #eff0f0; }
+
+.header-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+/* logo */
+.head-left {
+  width: 430px;
+  height: 100px;
+  float: left; }
+
+h1.logo {
+  width: 400px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  margin-left: 15px; }
+
+h1.logo img {
+  width: 100%;
+  height: 100%; }
+
+/* 头部右边部分 */
+.head-right {
+  width: 440px;
+  height: 100px;
+  float: right; }
+
+.head-right-wrap {
+  width: 430px;
+  height: 95px;
+  padding: 5px 5px 0 5px;
+  text-align: right;
+  position: relative; }
+
+.m-language a, .m-language b {
+  color: #0076c9;
+  font-size: 15px;
+  font-weight: bold; }
+
+/* 头部时间部分 */
+.m-time {
+  width: 450px;
+  height: 20px;
+  position: absolute;
+  bottom: 20px; }
+
+.m-time span {
+  font-size: 15px;
+  color: #0a0a0a; }
+
+.m-time .showtime {
+  width: 250px;
+  height: 20px;
+  color: #0076c9;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  margin-right: 5px;
+  float: right; }
+
+/* nav start */
+.nav {
+  width: 960px;
+  height: 75px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #0076c9; }
+
+.nav ul {
+  display: inline-block;
+  height: 75px;
+  position: relative; }
+
+.nav ul li {
+  float: left; }
+
+.nav ul li a {
+  height: 75px;
+  display: block;
+  text-align: center;
+  line-height: 75px;
+  color: #fdfafa;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  padding: 0 15px;
+  transition: background-color 1s,color 1s; }
+
+.nav ul li:first-child a {
+  padding: 0 20px; }
+
+.nav ul a.nav-active {
+  background-color: #fdfafa;
+  color: #0076c9; }
+
+.nav ul a:hover {
+  background-color: #fdfafa;
+  color: #0076c9; }
+
+/* main start */
+.main {
+  width: 960px;
+  min-height: calc(100vh - 17.8125em);
+  margin: 0 auto;
+  background-color: #fdfafa; }
+
+/*# sourceMappingURL=../maps/common/header.css.map */

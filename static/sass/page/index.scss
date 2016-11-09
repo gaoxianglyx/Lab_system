@@ -1,0 +1,16 @@
+@import '../common/global-set';
+%px{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+body{
+	@extend %px;
+    background-color:$global-bg;
+}
+p,span,ul,li{
+	@extend %px;
+}

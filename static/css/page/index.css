@@ -1,0 +1,25 @@
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+/*# sourceMappingURL=../maps/page/index.css.map */

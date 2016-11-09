@@ -1,0 +1,16 @@
+/**
+ *  all of global scss
+ */
+// reset 全局样式
+@import 'lib/reset.css';
+
+// 核心变量和混合
+@import 'common/global-set';
+// @import 'common/mixins';
+
+// 公共通用部分
+@import 'common/header';
+@import 'common/footer';
+
+// 模块
+

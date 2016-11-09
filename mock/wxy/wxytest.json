@@ -1,0 +1,8 @@
+{
+  "code": 10,
+  "msg": "账号已被注册",
+  "data": {
+  	"user": "xxx",
+  	"sex": "female"
+  }
+}

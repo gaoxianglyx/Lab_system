@@ -37,7 +37,7 @@
 另外，需要 git，不多说
 
 新建一个目录，把代码下下来
-`git clone git@github.com:qingfan/Institute.git`
+`git@github.com:gaoxianglyx/Lab_system.git`
 
 ### 运行
 

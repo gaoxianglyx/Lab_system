@@ -64,7 +64,7 @@
 		<!-- nav start -->
 		<div class="nav">
 			<ul>
-				<li><a href="#" id="index">首页</a></li>
+				<li><a href="/user" id="index">首页</a></li>
 				<li><a href="#">关于我们</a></li>
 				<li><a href="#">成员介绍</a></li>
 				<li><a href="#">教学活动</a></li>

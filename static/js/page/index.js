@@ -14,6 +14,7 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
         
         init:function(){
          index.getNewsData();
+
        },
        
             //下面就写需要的js函数
@@ -50,15 +51,14 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
             //这是一个ajax请求，写法如下
             getNewsData:function(){
              request.post(
-              _api.listnews,
+              '/user',
               {
-               "identify":"index"
+               page : 'index'
              },
              function(res){
 	               //在成功的回调函数里面，这句话就是用juicer把刚才newTpl的加上res的数据渲染出来,append进html里面
                  $(".news > .c").append(juicer(funcTpl(index.newTpl),res));
-                 index.news_look();
-                 index.newsTurn();
+                 console.log(res);
                }
                );
            }

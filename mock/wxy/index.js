@@ -10,18 +10,17 @@ module.exports = function(router, app) {
         var query = this.query || {};
         var offset = query.offset || 0;
         var limit = query.limit || 10;
-        
     });
 
     // 示例 2
-    router.get('/api/:num', function *() {
-        this.body = 1 + this.params.num;
+    router.get('/list', function *() {
+       console.log(this.query);
     });
 
     // 示例 3
     router.post('/user', function *() {
         var user = require('./wxytest.json');
-        console.log(user);
+        console.log(this.request.body);
         this.response.body = user;
     });
     

@@ -3,6 +3,7 @@
   "msg": "账号已被注册",
   "data": {
   	"user": "xxx",
-  	"sex": "female"
+  	"sex": "female",
+            "content": "真的可以哈哈，我要开始写接口"
   }
 }

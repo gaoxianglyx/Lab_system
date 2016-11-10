@@ -41,7 +41,7 @@
 
 ### 运行
 
-进入 ins 目录
+进入Lab_system 目录
 * `npm install / cnpm install` 安装依赖包
 * `npm start` 启动应用
 

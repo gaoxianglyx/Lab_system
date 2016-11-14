@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.global-center {
+  padding-top: 24px; }
+  .global-center .theme {
+    width: 168px;
+    height: 40px;
+    margin-left: 98px;
+    margin-bottom: 26px;
+    line-height: 40px;
+    background: url("../../img/common/theme.png"); }
+    .global-center .theme span {
+      font-size: 22px;
+      color: #fbfdfd;
+      font-family: "微软雅黑"; }
+  .global-center .wrap_member {
+    width: 584px;
+    height: 150px;
+    margin: 0 auto; }
+    .global-center .wrap_member .member {
+      width: 230px;
+      height: 34px;
+      margin: 0 auto;
+      font-size: 22px;
+      padding-left: 42px;
+      line-height: 34px;
+      color: #0076c9;
+      background: url("../../img/past_member/member.png") no-repeat; }
+    .global-center .wrap_member .thank {
+      color: #050505; }
+      .global-center .wrap_member .thank .para_1 {
+        margin-top: 36px; }
+      .global-center .wrap_member .thank .para_2 {
+        margin-left: 42px; }
+
+/*# sourceMappingURL=../maps/page/past_member.css.map */

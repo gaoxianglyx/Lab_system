@@ -1,0 +1,72 @@
+@import '../common/global-set';
+%px{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+body{
+	@extend %px;
+    background-color: #eff0f0;
+}
+p,span,ul,li{
+	@extend %px;
+}
+.member_list {
+	width: 584px;
+	margin: 0 auto;
+	.year {
+		width: 100%;
+		height: 102px;
+		font-size: 22px;
+		color: $global-bg-b;
+		line-height: 102px;
+		margin-bottom: 30px;
+	}
+	// 一个成员的信息
+	.person {
+		height: 418px;
+
+		//基本信息
+		.basic_info {
+			height: 224px;
+			img {
+				margin-left: 114px;
+			}
+			.info {
+				display: inline-block;
+				margin-left: 44px;
+				.position {
+					margin-left: 42px;
+					color: #000407;
+					margin-bottom: 40px;
+				}
+				.name {
+					color: $global-bg-b;
+					font-size: 24px;
+					margin-bottom: 16px;
+				}
+				.email {
+					color: #000407;
+				}
+			}
+		}
+
+		//主要成就
+		.achieve {
+			margin-top: 26px;
+			.main_ach {
+				color: $global-bg-b;
+			}
+			.detail {
+				height: 60px;
+				line-height: 30px;
+				color: #000407;
+				margin-top: 14px;
+				text-indent:2em;
+			}
+		}
+	}
+}

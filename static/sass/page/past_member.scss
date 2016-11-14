@@ -1,0 +1,56 @@
+@import '../common/global-set';
+%px{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+body{
+	@extend %px;
+    background-color: #eff0f0;
+}
+p,span,ul,li{
+	@extend %px;
+}
+.global-center {
+	padding-top: 24px;
+	.theme {
+		width: 168px;
+		height: 40px;
+		margin-left: 98px;
+		margin-bottom: 26px;
+		line-height: 40px;
+		background: url('../../img/common/theme.png');
+		span {
+			font-size: 22px;
+			color: #fbfdfd;
+			font-family: $family;
+		}
+	}
+	.wrap_member {
+		width: 584px;
+		height: 150px;
+		margin: 0 auto;
+		.member {
+			width: 230px;
+			height: 34px;
+			margin: 0 auto;
+			font-size: 22px;
+			padding-left: 42px;
+			line-height: 34px;
+			color: $global-bg-b;
+			background: url('../../img/past_member/member.png') no-repeat;
+		}
+		.thank{
+			color: #050505;
+			.para_1 {
+				margin-top: 36px;
+			}
+			.para_2 {
+				margin-left: 42px;
+			}
+		}
+	}
+}

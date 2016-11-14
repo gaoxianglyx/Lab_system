@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.global-center {
+  padding-top: 24px; }
+
+.theme2 {
+  width: 168px;
+  height: 40px;
+  margin-left: 98px;
+  margin-bottom: 26px;
+  line-height: 40px;
+  background: url("../../img/common/theme.png"); }
+  .theme2 span {
+    font-size: 22px;
+    color: #fbfdfd;
+    font-family: "微软雅黑"; }
+
+/*# sourceMappingURL=../maps/page/teching_detail.css.map */

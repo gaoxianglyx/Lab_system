@@ -14,3 +14,143 @@ body{
 p,span,ul,li{
 	@extend %px;
 }
+.global-center {
+	overflow: hidden;
+	.side_left {
+		width: 230px;
+		float: left;
+		margin: 8px 16px 32px 16px;
+		.dynamic {
+			height: 262px;
+			.title {
+				height: 46px;
+				line-height: 46px;
+				background: url('../../img/index/head.png') repeat-x;
+				.text {
+					margin-left: 12px;
+					color: #f65a5b;
+					font-size: 19px;
+				}
+				.more {
+					margin-left: 74px;
+				}
+			}
+			.list {
+				ul {
+					li {
+					border-bottom: 1px solid #cccdcd;
+					height: 38px;
+						.tit {
+							display: block;
+							font-size: 12px;
+							margin-left: 12px;
+							margin-top: 4px;
+							margin-right: 12px;
+							line-height: 16px;
+							color: #4f4c4c;
+							.date {
+								margin-left: 1em;
+							}
+						}						
+						a:hover {
+							color: $global-bg-b;
+						}
+					}
+				}
+			}
+
+		}
+		.activity {
+			height: 262px;
+			margin-top: 12px;
+			.title {
+				height: 46px;
+				line-height: 46px;
+				background: url('../../img/index/head.png') repeat-x;
+				.text {
+					margin-left: 12px;
+					color: #f65a5b;
+					font-size: 19px;
+				}
+				.more {
+					margin-left: 74px;
+				}
+			}
+			.list {
+				ul {
+					li {
+					border-bottom: 1px solid #cccdcd;
+					height: 38px;
+						.tit {
+							display: block;
+							font-size: 12px;
+							margin-left: 12px;
+							margin-top: 4px;
+							margin-right: 12px;
+							line-height: 16px;
+							color: #4f4c4c;
+							.date {
+								float: right;
+								margin-right: 6px;
+							}
+						}						
+						a:hover {
+							color: $global-bg-b;
+						}
+					}
+				}
+			}
+		}
+	}
+	// 主体部分
+	.content {
+		width: 684px;
+		height: 530px;
+		float: left;
+		margin-top: 14px;
+		background-color: #f1f3f3;
+		.about_us {
+			height: 280px;
+			border-top: 3px solid #f65a5b;
+			.text {
+				margin-left: 12px;
+				color: #f65a5b;
+				font-size: 19px;
+			}
+			.picture {
+				width: 608px;
+				height: 234px;
+				margin: 0 auto;
+				margin-top: 18px;
+			}
+		}
+		.service {
+			border-top: 3px solid #f65a5b;
+			height: 220px;
+			margin-top: 24px;
+			.text {
+				margin-left: 12px;
+				color: #f65a5b;
+				font-size: 19px;
+			}
+			.para {
+				font-size: 15px;
+				color: #302f2f;
+				width: 640px;
+				height: 130px;
+				margin-top: 20px;
+				line-height: 26px;
+				margin-left: 16px;
+				text-indent: 2em;
+			}
+			.more {
+				img {
+					float: right;
+					margin-top: 24px;
+					margin-right: 24px;
+				}
+
+			}
+		}
+	}
+}

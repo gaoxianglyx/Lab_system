@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.global-center {
+  padding-top: 24px;
+  padding-bottom: 65px; }
+  .global-center .theme {
+    width: 196px;
+    height: 40px;
+    margin-left: 98px;
+    margin-bottom: 26px;
+    line-height: 40px;
+    background: url("../../img/common/theme2.png"); }
+    .global-center .theme span {
+      font-size: 22px;
+      color: #fbfdfd;
+      font-family: "微软雅黑"; }
+  .global-center .member_list {
+    width: 780px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .global-center .member_list .person {
+      float: left;
+      background-color: #eff0f0;
+      width: 254px;
+      height: 450px;
+      margin-left: 6px;
+      margin-bottom: 50px; }
+      .global-center .member_list .person .words {
+        margin-left: 30px; }
+        .global-center .member_list .person .words .name {
+          color: #0076c9;
+          text-align: center; }
+        .global-center .member_list .person .words .content {
+          margin-top: 4px; }
+        .global-center .member_list .person .words .email {
+          margin-top: 20px; }
+
+/*# sourceMappingURL=../maps/page/graduate_student.css.map */

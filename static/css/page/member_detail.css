@@ -1,0 +1,65 @@
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.member_list {
+  width: 584px;
+  margin: 0 auto; }
+  .member_list .year {
+    width: 100%;
+    height: 102px;
+    font-size: 22px;
+    color: #0076c9;
+    line-height: 102px;
+    margin-bottom: 30px; }
+  .member_list .person {
+    height: 418px; }
+    .member_list .person .basic_info {
+      height: 224px; }
+      .member_list .person .basic_info img {
+        margin-left: 114px; }
+      .member_list .person .basic_info .info {
+        display: inline-block;
+        margin-left: 44px; }
+        .member_list .person .basic_info .info .position {
+          margin-left: 42px;
+          color: #000407;
+          margin-bottom: 40px; }
+        .member_list .person .basic_info .info .name {
+          color: #0076c9;
+          font-size: 24px;
+          margin-bottom: 16px; }
+        .member_list .person .basic_info .info .email {
+          color: #000407; }
+    .member_list .person .achieve {
+      margin-top: 26px; }
+      .member_list .person .achieve .main_ach {
+        color: #0076c9; }
+      .member_list .person .achieve .detail {
+        height: 60px;
+        line-height: 30px;
+        color: #000407;
+        margin-top: 14px;
+        text-indent: 2em; }
+
+/*# sourceMappingURL=../maps/page/member_detail.css.map */

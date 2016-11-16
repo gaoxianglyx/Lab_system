@@ -1,0 +1,60 @@
+@import '../common/global-set';
+%px{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+body{
+	@extend %px;
+    background-color: #eff0f0;
+}
+p,span,ul,li{
+	@extend %px;
+}
+.global-center {
+	padding-top: 24px;
+	padding-bottom: 65px;
+	.theme {
+		width: 196px;
+		height: 40px;
+		margin-left: 98px;
+		margin-bottom: 26px;
+		line-height: 40px;
+		background: url('../../img/common/theme2.png');
+		span {
+			font-size: 22px;
+			color: #fbfdfd;
+			font-family: $family;
+		}
+	}
+
+	.member_list {
+		width: 780px;
+		margin: 0 auto;
+		overflow: hidden;
+		 .person {
+		 	float: left;
+			background-color: #eff0f0;
+			width: 254px;
+			height: 450px;
+			margin-left: 6px;
+			margin-bottom: 50px;
+			.words {
+				margin-left: 30px;
+				.name {
+					color: $global-bg-b;
+					text-align: center;
+				}
+				.content {
+					margin-top: 4px;
+				}
+				.email {
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+}

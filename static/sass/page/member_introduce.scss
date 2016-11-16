@@ -1,0 +1,101 @@
+@import '../common/global-set';
+%px{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+body{
+	@extend %px;
+    background-color: #eff0f0;
+}
+p,span,ul,li{
+	@extend %px;
+}
+
+.main{
+	width:780px;	
+	margin:0px auto;
+	padding-top:36px;
+	.title{
+		width: 178px;
+		height: 40px;
+		margin-bottom: 24px;
+		border-radius: 5px;
+		font-size: 22px;
+		text-align: center;
+		line-height: 40px;
+		color:#fcf9f9;
+		background:$global-bg-r url(/img/product_service/title_bg.png) no-repeat left;
+	// background-color:$global-bg-r;
+	}
+	.member_list{
+		position: relative;
+		width: 780px;
+		height: 250px;
+		.personal_picture{
+			width: 183px;
+			height: 224px;
+			position:absolute;
+			top: 0;
+			left: 0;
+			border: 0;
+			// outline: 1px solid red;
+		}
+		.introduce{
+			width: 514px;
+			height: 224px;
+			position:absolute;
+			top: 0;
+			right: 0;
+			
+			.line{
+				width:514px;
+				height:3px;
+				background-color:$global-bg-b;
+			}
+			.name{
+				padding:5px;
+				color: #0076c9;
+				font-size:24px;
+			}
+			.duty{
+				padding:5px;
+				font-size: 20px;
+
+			}
+			.abstract{
+				padding:5px;
+				font-size: 18px;
+				text-indent: 36px;
+			}
+			.email{
+				padding:5px;
+				font-size: 18px;
+				color: #0076c9;
+			}
+		}
+		.more{
+			display: block;
+			font-size: 8px;
+			position:absolute;
+			right: 10px;
+			bottom:10px;
+			width:50px;
+			height: 15px;
+			line-height: 15px;
+			text-align:center;
+			background-color:#0076c9;
+			border-radius:6px;
+			color:#fcf9f9;
+			
+		}
+		a:hover{
+				background-color: #ee4242;
+			}
+			
+
+	}
+}

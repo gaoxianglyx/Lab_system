@@ -1,0 +1,99 @@
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.main {
+  width: 780px;
+  margin: 0px auto;
+  padding-top: 36px; }
+  .main .title {
+    width: 178px;
+    height: 40px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background: #ee4242 url(/img/product_service/title_bg.png) no-repeat left; }
+  .main .active_list {
+    width: 780px;
+    height: 110px;
+    margin-bottom: 54px; }
+    .main .active_list .theme_pictiure {
+      width: 153px;
+      height: 108px; }
+    .main .active_list .active_theme {
+      position: relative;
+      margin-left: 167px;
+      margin-top: -110px; }
+      .main .active_list .active_theme h2 {
+        font-size: 22px;
+        font-weight: bold; }
+      .main .active_list .active_theme .time_publisher {
+        position: absolute;
+        font-size: 16px;
+        width: 260px;
+        height: 12px;
+        line-height: 12px;
+        text-align: right;
+        right: 0px;
+        top: 10px;
+        color: #288285; }
+      .main .active_list .active_theme p {
+        font-size: 18px;
+        text-indent: 36px;
+        padding: 2px;
+        width: 614px;
+        height: 46px;
+        overflow: hidden;
+        color: #393a3a; }
+      .main .active_list .active_theme .cours {
+        font-size: 18px;
+        top: 84px;
+        right: 0px;
+        position: absolute; }
+      .main .active_list .active_theme a:hover {
+        color: #ee4242; }
+  .main .active_list:hover h2 {
+    color: #0076c9; }
+  .main .page {
+    width: 500px;
+    margin: 0px auto;
+    font-size: 22px;
+    text-align: center; }
+    .main .page a {
+      padding: 10 20px;
+      display: inline-block;
+      width: 80px; }
+    .main .page .pagen {
+      padding: 10 20px;
+      display: inline-block;
+      width: 80px; }
+    .main .page .pagesum {
+      font-size: 5px;
+      width: 60px; }
+    .main .page a:hover {
+      color: #0076c9; }
+
+/*# sourceMappingURL=../maps/page/education_active.css.map */

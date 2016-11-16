@@ -1,0 +1,91 @@
+@import '../common/global-set';
+%px{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+body{
+	@extend %px;
+    background-color: #eff0f0;
+}
+p,span,ul,li{
+	@extend %px;
+}
+
+.main{
+	width:780px;	
+	margin:0px auto;
+	padding-top:36px;
+	.title{
+		width: 178px;
+		height: 40px;
+		margin-bottom: 24px;
+		border-radius: 5px;
+		font-size: 22px;
+		text-align: center;
+		line-height: 40px;
+		color:white;
+		background:$global-bg-r url(/img/product_service/title_bg.png) no-repeat left;
+
+		// background-color:$global-bg-r;
+	}
+	.picture_name{
+		// outline: 1px solid #ff0000;
+		position: relative;
+		width: 675px;
+		height: 260px;
+		// margin: 0 auto;
+		.personal_picture{
+			position:absolute;
+			top: 0;
+			left: 140px;
+			width: 180px;
+			height: 228px;
+		}
+		.name_title{
+			// outline: 1px solid #ff0000;
+			position:absolute;
+			top:30px;
+			left:410px;
+			.name{
+				height: 72px;
+				line-height: 72px;
+				font-size: 22px;
+				font-weight: bold;
+				color: #0076c9;
+				
+			} 
+			.personal_title{
+				height: 72px;
+				line-height: 72px;
+				font-size: 18px;
+				// color: #000407;
+				
+			}
+			.email{
+				height: 72px;
+				line-height: 72px;
+				font-size: 18px;
+				// color: #000407;
+			}
+		}
+	}
+	.detail_list{
+		width:675px;
+		height:220px;
+		margin: 5px auto;
+		h2{
+			font-size: 22px;
+			font-weight: bold;
+			color: #0076c9; 
+		}
+		p{
+			padding:10px;
+			font-size: 18px;
+			text-indent: 36px;
+		}
+	}
+}

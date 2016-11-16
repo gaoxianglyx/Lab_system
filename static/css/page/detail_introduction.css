@@ -1,0 +1,80 @@
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.main {
+  width: 780px;
+  margin: 0px auto;
+  padding-top: 36px; }
+  .main .title {
+    width: 178px;
+    height: 40px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background: #ee4242 url(/img/product_service/title_bg.png) no-repeat left; }
+  .main .picture_name {
+    position: relative;
+    width: 675px;
+    height: 260px; }
+    .main .picture_name .personal_picture {
+      position: absolute;
+      top: 0;
+      left: 140px;
+      width: 180px;
+      height: 228px; }
+    .main .picture_name .name_title {
+      position: absolute;
+      top: 30px;
+      left: 410px; }
+      .main .picture_name .name_title .name {
+        height: 72px;
+        line-height: 72px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #0076c9; }
+      .main .picture_name .name_title .personal_title {
+        height: 72px;
+        line-height: 72px;
+        font-size: 18px; }
+      .main .picture_name .name_title .email {
+        height: 72px;
+        line-height: 72px;
+        font-size: 18px; }
+  .main .detail_list {
+    width: 675px;
+    height: 220px;
+    margin: 5px auto; }
+    .main .detail_list h2 {
+      font-size: 22px;
+      font-weight: bold;
+      color: #0076c9; }
+    .main .detail_list p {
+      padding: 10px;
+      font-size: 18px;
+      text-indent: 36px; }
+
+/*# sourceMappingURL=../maps/page/detail_introduction.css.map */

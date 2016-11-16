@@ -1,0 +1,65 @@
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.main {
+  width: 780px;
+  margin: 0px auto;
+  padding-top: 36px; }
+  .main .title {
+    width: 178px;
+    height: 40px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background: #ee4242 url(/img/product_service/title_bg.png) no-repeat left; }
+  .main .product_list {
+    width: 780px;
+    height: 330px;
+    position: relative; }
+    .main .product_list h2 {
+      padding-left: 30px;
+      height: 42px;
+      width: 780px;
+      background-color: #0076c9;
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      line-height: 42px; }
+    .main .product_list p {
+      text-indent: 30px;
+      margin-right: 254px;
+      font-size: 18px;
+      padding: 10px; }
+    .main .product_list img {
+      border: 0px;
+      width: 270px;
+      height: 270px;
+      top: 45px;
+      right: -28px;
+      position: absolute; }
+
+/*# sourceMappingURL=../maps/page/product_service.css.map */

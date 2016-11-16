@@ -1,0 +1,65 @@
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.main {
+  width: 780px;
+  margin: 0px auto;
+  padding-top: 40px 0; }
+  .main .title {
+    width: 178px;
+    height: 40px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background: #ee4242 url(/img/product_service/title_bg.png) no-repeat left; }
+  .main .about {
+    width: 680px;
+    margin: 20px auto; }
+    .main .about img {
+      display: block;
+      width: 500px;
+      height: 225px;
+      margin: 0 auto; }
+    .main .about p {
+      font-size: 18px;
+      text-indent: 36px;
+      padding: 20px; }
+  .main .direction {
+    width: 680px;
+    margin: 0px auto;
+    padding-bottom: 80px; }
+    .main .direction h2 {
+      font-size: 22px;
+      font-weight: bold;
+      padding: 5px;
+      color: #0076c9; }
+    .main .direction p {
+      font-size: 18px;
+      text-indent: 36px;
+      padding: 10px; }
+
+/*# sourceMappingURL=../maps/page/about_us.css.map */

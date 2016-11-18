@@ -1,0 +1,91 @@
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.main {
+  width: 780px;
+  margin: 0px auto;
+  padding-top: 36px; }
+  .main .title {
+    width: 178px;
+    height: 40px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    color: #fcf9f9;
+    background: #ee4242 url(/img/product_service/title_bg.png) no-repeat left; }
+  .main .member_list {
+    position: relative;
+    width: 780px;
+    height: 250px; }
+    .main .member_list .personal_picture {
+      width: 183px;
+      height: 224px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 0; }
+    .main .member_list .introduce {
+      width: 514px;
+      height: 224px;
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .main .member_list .introduce .line {
+        width: 514px;
+        height: 3px;
+        background-color: #0076c9; }
+      .main .member_list .introduce .name {
+        padding: 5px;
+        color: #0076c9;
+        font-size: 24px; }
+      .main .member_list .introduce .duty {
+        padding: 5px;
+        font-size: 20px; }
+      .main .member_list .introduce .abstract {
+        padding: 5px;
+        font-size: 18px;
+        text-indent: 36px; }
+      .main .member_list .introduce .email {
+        padding: 5px;
+        font-size: 18px;
+        color: #0076c9; }
+    .main .member_list .more {
+      display: block;
+      font-size: 8px;
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      width: 50px;
+      height: 15px;
+      line-height: 15px;
+      text-align: center;
+      background-color: #0076c9;
+      border-radius: 6px;
+      color: #fcf9f9; }
+    .main .member_list a:hover {
+      background-color: #ee4242; }
+
+/*# sourceMappingURL=../maps/page/member_introduce.css.map */

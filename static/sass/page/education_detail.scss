@@ -1,0 +1,70 @@
+@import '../common/global-set';
+%px{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+body{
+	@extend %px;
+    background-color: #eff0f0;
+}
+p,span,ul,li{
+	@extend %px;
+}
+
+.main{
+	width:780px;	
+	margin:0px auto;
+	padding-top:36px;
+	.title{
+		width: 178px;
+		height: 40px;
+		margin-bottom: 24px;
+		border-radius: 5px;
+		font-size: 22px;
+		text-align: center;
+		line-height: 40px;
+		color:white;
+		background:$global-bg-r url(/img/product_service/title_bg.png) no-repeat left;
+	}
+	.issue{
+		widows: 780px;
+		margin:0 auto;
+		.chapter_name{
+			width: 780px;
+			height: 60px;
+			background-color:#54bfbc;
+			line-height: 60px;
+			font-size: 22px;
+			text-align: center;
+		}
+		.ath_time{
+			width: 400px;
+			margin:0 auto;
+			color:#ff0000;
+			.author{
+				padding:10px;
+			}
+			.time{
+				padding:10px;
+			}
+		}
+		.adress{
+			display: block;
+			width: 120px;
+			height: 18px;
+			line-height: 18px;	
+			background: url(/img/common/activelog.png) no-repeat 0px 1px;
+			padding-left:20px;
+			color:#0076c9;
+		}
+		p{
+			font-size: 18px;
+			text-indent: 36px;
+			padding:10px;
+		}
+	}
+}	

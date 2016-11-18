@@ -78,34 +78,38 @@ p,span,ul,li{
 				text-indent: 2em;
 				}
 			}
-			.page {
-				margin-top: 50px;
-				width: 100%;
-				height: 66px;
-				background-color: $global-bg-g;
-				p {
-					display: inline-block;
-					font-size: 22px;
-					line-height: 66px;
-					color: #020202;
-					margin-left: 72px;
-					.number {
-						height: 22px;
-						margin-right: 16px;
-						margin-left: 16px;
-						padding-left: 12px;
-						padding-right: 12px;
-						background-color: #fcf7f7;
-					}
-					.next {
-						color: $global-bg-b;
-					}
-					.total_page {
-						font-size: 15px;
-						margin-left: -22px;
-					}
-				}
-			}
+
+			// 分页
+			// .page {
+			// 	margin-top: 50px;
+			// 	width: 100%;
+			// 	height: 66px;
+			// 	background-color: $global-bg-g;
+			// 	p {
+			// 		display: inline-block;
+			// 		font-size: 22px;
+			// 		line-height: 66px;
+			// 		color: #020202;
+			// 		margin-left: 72px;
+			// 		.number {
+			// 			height: 22px;
+			// 			margin-right: 16px;
+			// 			margin-left: 16px;
+			// 			padding-left: 12px;
+			// 			padding-right: 12px;
+			// 			background-color: #fcf7f7;
+			// 		}
+			// 		.next {
+			// 			color: $global-bg-b;
+			// 		}
+			// 		.total_page {
+			// 			font-size: 15px;
+			// 			margin-left: -22px;
+			// 		}
+			// 	}
+			// }
+			// 分页结束
+
 		}
 	}
 }

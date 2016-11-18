@@ -38,10 +38,24 @@ p,span,ul,li{
 			height: 34px;
 			margin: 0 auto;
 			font-size: 22px;
-			padding-left: 42px;
-			line-height: 34px;
-			color: $global-bg-b;
-			background: url('../../img/past_member/member.png') no-repeat;
+			img {
+				position: relative;
+				top: 6px;
+			}
+			a {
+				display: inline-block;
+				color: $global-bg-b;
+				margin-left: 12px;
+				width: 186px;
+				height: 32px;
+				line-height: 32px; 
+				margin-top: 12px;
+				background: url('../../img/common/more.png') no-repeat 146px 50%;
+			}
+			a:hover {
+				color: $global-bg-r; 
+				background: url('../../img/common/more_red.png') no-repeat 146px 50%;
+			}
 		}
 		.thank{
 			color: #050505;

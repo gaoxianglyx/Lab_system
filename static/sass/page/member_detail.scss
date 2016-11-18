@@ -15,29 +15,34 @@ p,span,ul,li{
 	@extend %px;
 }
 .member_list {
-	width: 584px;
+	width: 592px;
 	margin: 0 auto;
 	.year {
 		width: 100%;
-		height: 102px;
-		font-size: 22px;
-		color: $global-bg-b;
-		line-height: 102px;
-		margin-bottom: 30px;
-	}
+		.mem_year {
+			display: block;
+			height: 102px;
+			width: 100%;
+			font-size: 22px;
+			color: $global-bg-b;
+			line-height: 102px;
+			margin-bottom: 30px;
+		}
 	// 一个成员的信息
 	.person {
 		height: 418px;
-
+		width: 100%;
 		//基本信息
 		.basic_info {
 			height: 224px;
 			img {
-				margin-left: 114px;
+				margin-left: 100px;
+				width: 180px;
+				height: 224px;
 			}
 			.info {
 				display: inline-block;
-				margin-left: 44px;
+				margin-left: 36px;
 				.position {
 					margin-left: 42px;
 					color: #000407;
@@ -45,7 +50,7 @@ p,span,ul,li{
 				}
 				.name {
 					color: $global-bg-b;
-					font-size: 24px;
+					font-size: 20px;
 					margin-bottom: 16px;
 				}
 				.email {
@@ -69,4 +74,5 @@ p,span,ul,li{
 			}
 		}
 	}
+}
 }

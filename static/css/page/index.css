@@ -39,7 +39,13 @@ body {
           color: #f65a5b;
           font-size: 19px; }
         .global-center .side_left .dynamic .title .more {
-          margin-left: 74px; }
+          margin-left: 74px;
+          width: 40px;
+          height: 10px;
+          display: inline-block;
+          background: url("../../img/index/more.png") no-repeat; }
+        .global-center .side_left .dynamic .title a:hover {
+          background: url("../../img/index/more_red.png") no-repeat; }
       .global-center .side_left .dynamic .list ul li {
         border-bottom: 1px solid #cccdcd;
         height: 38px; }
@@ -52,7 +58,8 @@ body {
           line-height: 16px;
           color: #4f4c4c; }
           .global-center .side_left .dynamic .list ul li .tit .date {
-            margin-left: 1em; }
+            float: right;
+            margin-right: 1em; }
         .global-center .side_left .dynamic .list ul li a:hover {
           color: #0076c9; }
     .global-center .side_left .activity {
@@ -67,7 +74,13 @@ body {
           color: #f65a5b;
           font-size: 19px; }
         .global-center .side_left .activity .title .more {
-          margin-left: 74px; }
+          margin-left: 74px;
+          width: 40px;
+          height: 10px;
+          display: inline-block;
+          background: url("../../img/index/more.png") no-repeat; }
+        .global-center .side_left .activity .title a:hover {
+          background: url("../../img/index/more_red.png") no-repeat; }
       .global-center .side_left .activity .list ul li {
         border-bottom: 1px solid #cccdcd;
         height: 38px; }
@@ -119,9 +132,15 @@ body {
         line-height: 26px;
         margin-left: 16px;
         text-indent: 2em; }
-      .global-center .content .service .more img {
+      .global-center .content .service .more {
         float: right;
-        margin-top: 24px;
-        margin-right: 24px; }
+        margin-right: 22px;
+        margin-top: 20px;
+        width: 40px;
+        height: 10px;
+        display: inline-block;
+        background: url("../../img/index/more.png") no-repeat; }
+      .global-center .content .service a:hover {
+        background: url("../../img/index/more_red.png") no-repeat; }
 
 /*# sourceMappingURL=../maps/page/index.css.map */

@@ -33,6 +33,13 @@ p,span,ul,li{
 				}
 				.more {
 					margin-left: 74px;
+					width: 40px;
+					height: 10px;
+					display: inline-block;
+					background: url('../../img/index/more.png') no-repeat;
+				}
+				a:hover {
+					background: url('../../img/index/more_red.png') no-repeat;
 				}
 			}
 			.list {
@@ -49,7 +56,8 @@ p,span,ul,li{
 							line-height: 16px;
 							color: #4f4c4c;
 							.date {
-								margin-left: 1em;
+								float: right;
+								margin-right: 1em;
 							}
 						}						
 						a:hover {
@@ -74,6 +82,13 @@ p,span,ul,li{
 				}
 				.more {
 					margin-left: 74px;
+					width: 40px;
+					height: 10px;
+					display: inline-block;
+					background: url('../../img/index/more.png') no-repeat;
+				}
+				a:hover {
+					background: url('../../img/index/more_red.png') no-repeat;
 				}
 			}
 			.list {
@@ -144,12 +159,16 @@ p,span,ul,li{
 				text-indent: 2em;
 			}
 			.more {
-				img {
-					float: right;
-					margin-top: 24px;
-					margin-right: 24px;
-				}
-
+				float: right;
+				margin-right: 22px;
+				margin-top: 20px;
+				width: 40px;
+				height: 10px;
+				display: inline-block;
+				background: url('../../img/index/more.png') no-repeat;
+			}
+			a:hover {
+				background: url('../../img/index/more_red.png') no-repeat;
 			}
 		}
 	}

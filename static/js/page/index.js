@@ -1,11 +1,27 @@
 /**
  * 首页
  * 
- * @author gaoxiang
+ * @author huangjing
  */
  require.config({
    baseUrl: MIS.STATIC_ROOT
  });
+ window.onload=function() {
+    // 研究动态标题超出字数隐藏
+    var title=document.getElementsByClassName('timu');
+    for(var i=0;i<title.length;i++) {
+      if (title[i].innerHTML.length>22) {
+        title[i].innerHTML=title[i].innerHTML.substr(0,22)+'...';
+      }
+    }
+    // 教学活动标题超出字数隐藏
+    var act=document.getElementsByClassName('act');
+    for(var i=0;i<act.length;i++) {
+      if (act[i].innerHTML.length>16) {
+        act[i].innerHTML=act[i].innerHTML.substr(0,16)+'...';
+      }
+    }
+ }
 
 //require的参数为你要调用的js库，一般就是下面这些
 require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, request,funcTpl) {
@@ -18,46 +34,45 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
        },
        
             //下面就写需要的js函数
-
+                                 
             //你需要动态渲染到html的dom，就先写成下面newTpl这种格式
-            newTpl:function(){
+            newTpl1:function(){
            /*
-             
-             <div class="news_list">
-                {@each data.newslist as item}
-	             <div class="news_item">
-	                 <p class="news_id" style="display:none">${item.id}</p>
-		             <div class="img">
-			             <img src=${item.picture.link}>
-		             </div>
-		             <div class="detail">
-			             <p class="news_head">
-				             <span class="title">${item.title}</span>
-				             <span class="date">${item.date}  发布</span>
-			             </p>
-			             <p class="news_detail">
-				             ${item.summary}
-			             </p>
-			             <p class="more">
-				             <a href="#">阅读原文</a>
-			             </p>
-		             </div>
-	             </div>
+                {@each data as dyna}
+	              <li>
+                  <a  class="tit" href="#">
+                    <span class="timu">${dyna.title}</span>
+                    <span class="date">[${dyna.date}]</span>
+                  </a>
+                </li>
 	             {@/each}
-             </div>
+             */
+           },
+           newTpl2:function(){
+           /*
+                {@each dynamic as activity}
+                <li>
+                  <a  class="tit" href="#">
+                    <span class="act">${activity.title}</span>
+                    <span class="date">[${activity.date}]</span>
+                  </a>
+                </li>
+               {@/each}
              */
            },
 
             //这是一个ajax请求，写法如下
             getNewsData:function(){
              request.post(
-              '/user',
+              'http://rap.taobao.org/mockjsdata/10008/index.do',
               {
-               page : 'index'
+               
              },
              function(res){
 	               //在成功的回调函数里面，这句话就是用juicer把刚才newTpl的加上res的数据渲染出来,append进html里面
-                 $(".news > .c").append(juicer(funcTpl(index.newTpl),res));
+                 $(".dynamic .list ul").append(juicer(funcTpl(index.newTpl1),res));
+                 console.log(res);
+                 $(".activity .list ul").append(juicer(funcTpl(index.newTpl2),res));
                  console.log(res);
                }
                );

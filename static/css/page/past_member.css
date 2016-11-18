@@ -44,11 +44,22 @@ body {
       width: 230px;
       height: 34px;
       margin: 0 auto;
-      font-size: 22px;
-      padding-left: 42px;
-      line-height: 34px;
-      color: #0076c9;
-      background: url("../../img/past_member/member.png") no-repeat; }
+      font-size: 22px; }
+      .global-center .wrap_member .member img {
+        position: relative;
+        top: 6px; }
+      .global-center .wrap_member .member a {
+        display: inline-block;
+        color: #0076c9;
+        margin-left: 12px;
+        width: 186px;
+        height: 32px;
+        line-height: 32px;
+        margin-top: 12px;
+        background: url("../../img/common/more.png") no-repeat 146px 50%; }
+      .global-center .wrap_member .member a:hover {
+        color: #ee4242;
+        background: url("../../img/common/more_red.png") no-repeat 146px 50%; }
     .global-center .wrap_member .thank {
       color: #050505; }
       .global-center .wrap_member .thank .para_1 {

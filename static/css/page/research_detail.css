@@ -54,15 +54,6 @@ body {
       margin-top: 12px; }
       .global-center .article .content .date_auth .author {
         margin-left: 50px; }
-    .global-center .article .content .download {
-      margin-left: 38px;
-      margin-top: 14px;
-      background: url("../../img/teaching_detail/download.png") no-repeat 0px 3px; }
-      .global-center .article .content .download a {
-        color: #0076c9;
-        font-size: 15px;
-        margin-left: 22px;
-        margin-top: -5px; }
     .global-center .article .content .con_words {
       width: 100%;
       margin-top: 10px; }

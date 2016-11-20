@@ -38,11 +38,11 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
             //你需要动态渲染到html的dom，就先写成下面newTpl这种格式
             newTpl1:function(){
            /*
-                {@each data as dyna}
+                {@each data.research as research}
 	              <li>
-                  <a  class="tit" href="#">
-                    <span class="timu">${dyna.title}</span>
-                    <span class="date">[${dyna.date}]</span>
+                  <a  class="tit" href="research_detail.html?id=${research.id}">
+                    <span class="timu">${research.title}</span>
+                    <span class="date">[${research.date}]</span>
                   </a>
                 </li>
 	             {@/each}
@@ -50,9 +50,9 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
            },
            newTpl2:function(){
            /*
-                {@each dynamic as activity}
+                {@each data.activity as activity}
                 <li>
-                  <a  class="tit" href="#">
+                  <a  class="tit" href="teaching_detail.html?id=${activity.id}">
                     <span class="act">${activity.title}</span>
                     <span class="date">[${activity.date}]</span>
                   </a>

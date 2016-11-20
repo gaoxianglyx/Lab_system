@@ -22,26 +22,24 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
             //你需要动态渲染到html的dom，就先写成下面newTpl这种格式
             newTpl:function(){
            /*
-
-            {@each data as member_list}
-	            <!-- 一个成员信息 start-->
-              <div class="person">
-                <!-- 基本信息 -->
-                <div class="basic_info">
-                <img src="${member_list.picture}">
-                  <div class="info">
-                    <p class="position f18">担任职位：xxxxx</p>
-                    <p class="name fb">${member_list.name}</p>
-                    <p class="email f18">邮箱：xxxxxxxx</p>
-                  </div>
+            <!-- 标题部分 -->
+                <div class="title tc">
+                  ${data.title}
                 </div>
-                <!-- 主要成就 -->
-                <div class="achieve">
-                  <p class="main_ach f18 fb">主要成就：</p>
-                  <div class="detail f18">${member_list.synopsis}</div>
+              
+                <!-- 内容部分 -->
+                <div class="content">
+                  <div class="date_auth tc">
+                    <span class="date">发表日期：${data.date}</span>
+                    <span class="author">作者：${data.author}</span>
                   </div>
+                  <div class="download"><a href="${data.materialPath}">资料下载地址：</a></div>
+                  <div class="con_words f18">
+                    <p>${data.detail}</p>
+                  </div>                             
                 </div>
-              <!-- 一个成员信息 end -->
+            {@each data as article}
+	               
 	           {@/each}
 
              */
@@ -49,14 +47,16 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
 
             //这是一个ajax请求，写法如下
             getNewsData:function(){
-             request.post(
+              var args=getQueryStringArgs();
+              var id=args["id"];
+              request.post(
               'http://rap.taobao.org/mockjsdata/10008/activity/activityDetail.do',
               {
-
+                id:id
               },
              function(res){
 	               //在成功的回调函数里面，这句话就是用juicer把刚才newTpl的加上res的数据渲染出来,append进html里面
-                 $("year").append(juicer(funcTpl(teaching_detail.newTpl),res));
+                 $(".article").append(juicer(funcTpl(teaching_detail.newTpl),res));
                  console.log(res);
                }
                );

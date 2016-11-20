@@ -26,7 +26,7 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
             {@each data as item}
 	            <!-- 一个成员 -->
               <div class="person">
-                <img src="../img/research_student/student1.png">
+                <img src="${item.picture}">
                 <div class="words fb">
                   <p class="name f18">${item.name}</p>
                   <p class="content"><span class="f18">研究内容：</span><br><span class="f14">${item.content}</span></p>

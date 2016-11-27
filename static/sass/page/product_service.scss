@@ -14,6 +14,9 @@ body{
 p,span,ul,li{
 	@extend %px;
 }
+img{
+	border:0px;
+}
 
 .main{
 	width:780px;	

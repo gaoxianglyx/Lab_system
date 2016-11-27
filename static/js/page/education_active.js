@@ -29,7 +29,7 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
                     <h2>${item.title}</h2>
                     <span class="time_publisher">${item.date}发布人：${item.author}</span>
                     <p>${item.summary}</p>
-                  <a class="cours" href="#">课程详情</a>
+                  <a class="cours" href="education_detail.html?id=${item.id}">课程详情</a>
                   </div>
             </div>
             {@/each}

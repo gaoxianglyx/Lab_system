@@ -24,7 +24,7 @@ body {
 
 .main {
   width: 780px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding-top: 36px; }
   .main .title {
     width: 178px;

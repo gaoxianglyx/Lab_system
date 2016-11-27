@@ -67,7 +67,7 @@ body {
   .main .detail_list {
     width: 675px;
     height: 220px;
-    margin: 5px auto; }
+    margin: 0px auto; }
     .main .detail_list h2 {
       font-size: 22px;
       font-weight: bold;

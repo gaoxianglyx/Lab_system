@@ -57,6 +57,8 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
 
             //这是一个ajax请求，写法如下
             getNewsData:function(){
+              var args=getQueryStringArgs();
+              var id=args["id"];
              request.post(
               'http://rap.taobao.org/mockjsdata/10008/user/userDetail.do',
               {

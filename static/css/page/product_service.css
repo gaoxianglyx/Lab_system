@@ -22,6 +22,9 @@ a {
 body {
   background-color: #eff0f0; }
 
+img {
+  border: 0px; }
+
 .main {
   width: 780px;
   margin: 0px auto;

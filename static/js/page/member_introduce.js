@@ -38,7 +38,7 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
                   <p class="email">${item.email}</p>
                   
                 </div>
-                <a class="more" herf="#">more</a>
+                <a class="more" href="detail_introduction.html?id=${item.id}">more</a>
               </div>
              {@/each}
              

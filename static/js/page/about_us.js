@@ -22,29 +22,7 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
             //你需要动态渲染到html的dom，就先写成下面newTpl这种格式
             newTpl:function(){
            /*
-             
-             <div class="news_list">
-                {@each data.newslist as item}
-	             <div class="news_item">
-	                 <p class="news_id" style="display:none">${item.id}</p>
-		             <div class="img">
-			             <img src=${item.picture.link}>
-		             </div>
-		             <div class="detail">
-			             <p class="news_head">
-				             <span class="title">${item.title}</span>
-				             <span class="date">${item.date}  发布</span>
-			             </p>
-			             <p class="news_detail">
-				             ${item.summary}
-			             </p>
-			             <p class="more">
-				             <a href="#">阅读原文</a>
-			             </p>
-		             </div>
-	             </div>
-	             {@/each}
-             </div>
+               
              */
            },
 
@@ -53,7 +31,7 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
              request.post(
               '/user',
               {
-               page : 'index'
+               page : 'about_us'
              },
              function(res){
 	               //在成功的回调函数里面，这句话就是用juicer把刚才newTpl的加上res的数据渲染出来,append进html里面

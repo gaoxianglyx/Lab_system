@@ -30,7 +30,7 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
                     <h2>${item.title}</h2>
                     <span class="time">${item.date}</span>
                     <p>${item.summary}</p>
-                  <a class="cours" href="#">阅读原文</a>
+                  <a class="cours" href="research_detail.html?id={item.id}">阅读原文</a>
                   </div>
             </div>
             {@/each}

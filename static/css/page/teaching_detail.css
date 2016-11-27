@@ -70,28 +70,5 @@ body {
         line-height: 30px;
         color: #0a0a0a;
         text-indent: 2em; }
-    .global-center .article .content .page {
-      margin-top: 50px;
-      width: 100%;
-      height: 66px;
-      background-color: #54bfbc; }
-      .global-center .article .content .page p {
-        display: inline-block;
-        font-size: 22px;
-        line-height: 66px;
-        color: #020202;
-        margin-left: 72px; }
-        .global-center .article .content .page p .number {
-          height: 22px;
-          margin-right: 16px;
-          margin-left: 16px;
-          padding-left: 12px;
-          padding-right: 12px;
-          background-color: #fcf7f7; }
-        .global-center .article .content .page p .next {
-          color: #0076c9; }
-        .global-center .article .content .page p .total_page {
-          font-size: 15px;
-          margin-left: -22px; }
 
 /*# sourceMappingURL=../maps/page/teaching_detail.css.map */

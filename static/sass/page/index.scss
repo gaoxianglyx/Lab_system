@@ -33,6 +33,13 @@ p,span,ul,li{
 				}
 				.more {
 					margin-left: 74px;
+					width: 40px;
+					height: 10px;
+					display: inline-block;
+					background: url('../../img/index/more.png') no-repeat;
+				}
+				a:hover {
+					background: url('../../img/index/more_red.png') no-repeat;
 				}
 			}
 			.list {
@@ -49,7 +56,8 @@ p,span,ul,li{
 							line-height: 16px;
 							color: #4f4c4c;
 							.date {
-								margin-left: 1em;
+								float: right;
+								margin-right: 1em;
 							}
 						}						
 						a:hover {
@@ -74,6 +82,13 @@ p,span,ul,li{
 				}
 				.more {
 					margin-left: 74px;
+					width: 40px;
+					height: 10px;
+					display: inline-block;
+					background: url('../../img/index/more.png') no-repeat;
+				}
+				a:hover {
+					background: url('../../img/index/more_red.png') no-repeat;
 				}
 			}
 			.list {
@@ -122,34 +137,27 @@ p,span,ul,li{
 				height: 234px;
 				margin: 0 auto;
 				margin-top: 18px;
-			}
-		}
-		.service {
-			border-top: 3px solid #f65a5b;
-			height: 220px;
-			margin-top: 24px;
-			.text {
-				margin-left: 12px;
-				color: #f65a5b;
-				font-size: 19px;
+				margin-bottom: 20px;
 			}
 			.para {
 				font-size: 15px;
 				color: #302f2f;
 				width: 640px;
-				height: 130px;
-				margin-top: 20px;
 				line-height: 26px;
-				margin-left: 16px;
+				margin-left: 26px;
 				text-indent: 2em;
 			}
 			.more {
-				img {
-					float: right;
-					margin-top: 24px;
-					margin-right: 24px;
-				}
-
+				float: right;
+				margin-right: 22px;
+				margin-top: 24px;
+				width: 40px;
+				height: 10px;
+				display: inline-block;
+				background: url('../../img/index/more.png') no-repeat;
+			}
+			a:hover {
+				background: url('../../img/index/more_red.png') no-repeat;
 			}
 		}
 	}

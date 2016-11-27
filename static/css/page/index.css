@@ -39,7 +39,13 @@ body {
           color: #f65a5b;
           font-size: 19px; }
         .global-center .side_left .dynamic .title .more {
-          margin-left: 74px; }
+          margin-left: 74px;
+          width: 40px;
+          height: 10px;
+          display: inline-block;
+          background: url("../../img/index/more.png") no-repeat; }
+        .global-center .side_left .dynamic .title a:hover {
+          background: url("../../img/index/more_red.png") no-repeat; }
       .global-center .side_left .dynamic .list ul li {
         border-bottom: 1px solid #cccdcd;
         height: 38px; }
@@ -52,7 +58,8 @@ body {
           line-height: 16px;
           color: #4f4c4c; }
           .global-center .side_left .dynamic .list ul li .tit .date {
-            margin-left: 1em; }
+            float: right;
+            margin-right: 1em; }
         .global-center .side_left .dynamic .list ul li a:hover {
           color: #0076c9; }
     .global-center .side_left .activity {
@@ -67,7 +74,13 @@ body {
           color: #f65a5b;
           font-size: 19px; }
         .global-center .side_left .activity .title .more {
-          margin-left: 74px; }
+          margin-left: 74px;
+          width: 40px;
+          height: 10px;
+          display: inline-block;
+          background: url("../../img/index/more.png") no-repeat; }
+        .global-center .side_left .activity .title a:hover {
+          background: url("../../img/index/more_red.png") no-repeat; }
       .global-center .side_left .activity .list ul li {
         border-bottom: 1px solid #cccdcd;
         height: 38px; }
@@ -101,27 +114,24 @@ body {
         width: 608px;
         height: 234px;
         margin: 0 auto;
-        margin-top: 18px; }
-    .global-center .content .service {
-      border-top: 3px solid #f65a5b;
-      height: 220px;
-      margin-top: 24px; }
-      .global-center .content .service .text {
-        margin-left: 12px;
-        color: #f65a5b;
-        font-size: 19px; }
-      .global-center .content .service .para {
+        margin-top: 18px;
+        margin-bottom: 20px; }
+      .global-center .content .about_us .para {
         font-size: 15px;
         color: #302f2f;
         width: 640px;
-        height: 130px;
-        margin-top: 20px;
         line-height: 26px;
-        margin-left: 16px;
+        margin-left: 26px;
         text-indent: 2em; }
-      .global-center .content .service .more img {
+      .global-center .content .about_us .more {
         float: right;
+        margin-right: 22px;
         margin-top: 24px;
-        margin-right: 24px; }
+        width: 40px;
+        height: 10px;
+        display: inline-block;
+        background: url("../../img/index/more.png") no-repeat; }
+      .global-center .content .about_us a:hover {
+        background: url("../../img/index/more_red.png") no-repeat; }
 
 /*# sourceMappingURL=../maps/page/index.css.map */
